@@ -1,0 +1,5 @@
+树上差分：点差分，边差分
+lca：tarjan，binary lift，树链剖分求lca
+(lca的快速求法见论文)
+树上两点间的最短距离dis[u]+dis[v]-2*dis[lca(u,v)]
+求最大值，最小值等等可能会用二分法
